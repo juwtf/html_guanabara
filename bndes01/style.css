@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body{
+    background-color: rgb(52, 90, 52);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.315);
+    width: 70%;
+    height: 92vh;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+table{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-spacing: 6px;
+    width: auto;
+    display: flex;
+    overflow-x: auto;
+}
+
+td{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+
+p{
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+div.imgfundo1{
+    height: 50vh;
+    background-image: url(https://veja.abril.com.br/wp-content/uploads/2019/01/brasil-bndes-joaquim-levy-20190108-015-copy.jpg?quality=70&strip=info&resize=680);
+    background-position: center right;
+}
+
+div.imgfundo2{
+    height: 50vh;
+    background-image: url(https://th.bing.com/th/id/OIP.G4W_b5Z_jfWRzXSw0uCXNgHaE8?rs=1&pid=ImgDetMain);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin-top: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
